@@ -5,6 +5,8 @@ public class Ninja {
     int idade;
     String aldeia;
 
+
+
     //criando um metodo publico personalizado
 
     /*

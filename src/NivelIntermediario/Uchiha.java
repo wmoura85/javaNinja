@@ -6,3 +6,4 @@ public class Uchiha extends Ninja {
         System.out.println("Meu nome é " + nome + ". O sahringan Ativou e eu sou Uchiha!");
     }
 }
+
