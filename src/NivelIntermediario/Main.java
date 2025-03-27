@@ -1,5 +1,7 @@
 package NivelIntermediario;
 
+import com.sun.net.httpserver.HttpHandler;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -30,6 +32,15 @@ public class Main {
         Hinata.idade = 16;
         Hinata.aldeia = "Aldeia da Folha";
         Hinata.expelirChakra();
+
+        //Objeto 5
+        Hatake Kakashi = new Hatake();
+        Kakashi.nome = "Kakashi Hatake";
+        Kakashi.idade = 47;
+        Kakashi.aldeia = "Aldeia da Areia";
+        Kakashi.boasVindas();
+        Kakashi.SharinganAtivado();
+        Kakashi.ninjaDeElite();
 
         //aplicando metodos aos objetos
        /* Sasuke.SharinganAtivado();

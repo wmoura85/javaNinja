@@ -1,6 +1,6 @@
 package Desafio4;
 
-public class NinjaAvancado extends NinjaBasico implements Ninja {
+public class NinjaAvancado extends NinjaBasico  {
 
     String especialidade;
 
