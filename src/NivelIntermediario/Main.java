@@ -42,6 +42,10 @@ public class Main {
         Kakashi.SharinganAtivado();
         Kakashi.ninjaDeElite();
 
+        //Objeto 6
+        Uchiha Madara = new Uchiha("Madara Uchiha",30,"aldeia da areia",150,NivelNinja.GENIN);
+        Madara.habilidadeEspecial();
+
         //aplicando metodos aos objetos
        /* Sasuke.SharinganAtivado();
         String chamandoMetodo = Sasuke.euSouUmNinja();

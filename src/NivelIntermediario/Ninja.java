@@ -1,11 +1,30 @@
 package NivelIntermediario;
 
 public class Ninja {
+    //TODO: Incluir dois novos atributos: numeroDeMissoesConcluidas , Rank
+
     String nome;
     int idade;
     String aldeia;
+    int numeroDeMissoesConcluidas;
+    NivelNinja rank;
 
+    public Ninja() {
+    }
 
+    public Ninja(String nome, int idade, String aldeia) {
+        this.nome = nome;
+        this.idade = idade;
+        this.aldeia = aldeia;
+    }
+
+    //TODO: Sobrecarga do construtor chamando os novos atributos
+
+    public Ninja(String nome, int idade, String aldeia, int numeroDeMissoesConcluidas, NivelNinja rank) {
+        this(nome, idade,aldeia);
+        this.numeroDeMissoesConcluidas = numeroDeMissoesConcluidas;
+        this.rank = rank;
+    }
 
     //criando um metodo publico personalizado
 
