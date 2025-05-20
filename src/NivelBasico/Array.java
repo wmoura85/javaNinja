@@ -10,7 +10,7 @@ public class Array {
         ninja[3] = "Minato Namikaze";
         ninja[4] = "Tsunade";
         ninja[5] = "Kakashi Hatake";
-        ninja[6] = "Naruto Uzamaki";
+        ninja[6] = "Naruto Uzumaki";
 
         //For para exebir todo o array
         for (int i = 0; i < 7; i++) {

@@ -2,6 +2,13 @@ package NivelIntermediario;
 
 public class Hatake extends Ninja implements Sharinganinterface, AnbuInterface{
 
+    public Hatake() {
+    }
+
+    public Hatake(String nome, int idade, String aldeia, int numeroDeMissoesConcluidas, NivelNinja rank) {
+        super(nome, idade, aldeia, numeroDeMissoesConcluidas, rank);
+    }
+
     public void boasVindas() {
         System.out.println(nome + ": Eu sou um Hatake!");
     }

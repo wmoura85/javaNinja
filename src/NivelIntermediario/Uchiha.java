@@ -14,9 +14,13 @@ public class Uchiha extends Ninja implements Sharinganinterface {
     }
 
     public void habilidadeEspecial() {
-        System.out.println("Meu nome é " + nome + ". esse é meu ataque Uchiha de fogo , e eu conclui: " + numeroDeMissoesConcluidas + " missões.");
+        System.out.println("Meu nome é " + nome + ". esse é meu ataque Uchiha de fogo , e eu conclui: " + numeroDeMissoesConcluidas + " missões, " + "meu rank: " + rank);
     }
 
+    /*
+    * Metodo:
+    * Implementa da interface Sharingan
+     */
     public void SharinganAtivado() {
         System.out.println("Meu nome é " + nome + ". O sahringan Ativou e eu sou Uchiha!");
     }

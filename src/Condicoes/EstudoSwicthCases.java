@@ -16,7 +16,7 @@ public class EstudoSwicthCases {
 
         //opcoes
         System.out.println("escola um personagem: ");
-        System.out.println("1 - Naruto Uzamaki");
+        System.out.println("1 - Naruto Uzumaki");
         System.out.println("2 - Sasuke Uchiha");
         System.out.println("3 - Sakura Haruno");
 
@@ -28,7 +28,7 @@ public class EstudoSwicthCases {
         //reacao a escolher
         switch (opcao) {
             case 1:
-                System.out.println("O usuario escolheu o Naruto Uzamaki, o proximo Hokage!");
+                System.out.println("O usuario escolheu o Naruto Uzumaki, o proximo Hokage!");
                 break;
             case 2:
                 System.out.println("O usuario escolheu o Sasuke Uchiha, o ninja mais bolado!");
